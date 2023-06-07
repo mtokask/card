@@ -12,13 +12,13 @@ function setup() {
 }
 
 function draw() {
-  background("silver");
+  background("white");
   orbitControl();
   noStroke();
   normalMaterial();
-  ambientLight(0, 255, 0);
-  directionalLight(255, 255, 255, 1, 1, 0);
-  specularMaterial(255);
+  // ambientLight(0, 255, 0);
+  // directionalLight(255, 255, 255, 1, 1, 0);
+  // specularMaterial(255);
   noStroke();
 
   // namecard
